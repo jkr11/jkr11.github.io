@@ -16,7 +16,7 @@ This entry contains a list of proofs i found that either support my studies or w
 *For all $$a \in \mathbb{Z}$$ and every Prime $$p$$ there is:
 $$a^p = a \mod p \iff p \mid a^p - a$$*
 
-*Proof.* {% sidenote 1 'After Lionel Levine, Math. Magazine 1999.' %}
+*Proof.* {% include sidenote.html note="Side note: While equation (3) is invertible using the right constraints, no closed form inverse is know. Therefore in practice the inverse can only be approximated." %}
 
 For all $$a \geq 2$$ and $$p$$ prime, let $$f: \mathbb{C} \to \mathbb{C}$$ be
 defined by $$f(z) = z^a$$. It's pth iterate is $$f_p(z) = z^{a^p}$$. Let
