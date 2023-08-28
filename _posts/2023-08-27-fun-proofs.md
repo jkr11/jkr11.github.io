@@ -4,7 +4,7 @@ title: Fun proofs
 latex: true
 ---
 
-This entry contains a list of proofs i found that either support my studies or were interesting/unique enough to write down.
+This entry contains a list of proofs i found that were interesting/unique enough to write down.
 
 
 <!--more-->
