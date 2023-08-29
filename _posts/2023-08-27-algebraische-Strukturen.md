@@ -1,6 +1,6 @@
 ## Gruppen
-- Es sei $\mathbb{G}$ eine Menge mit der Verknuepfung $\cdot$
-- Man bezeichnet $(\mathbb{G}, \cdot)$ als Gruppe, falls folgende Kriterien erfuellt sind:
+- Es sei $$\mathbb{G}$$ eine Menge mit der Verknuepfung $\cdot$
+- Man bezeichnet $$(\mathbb{G}, \cdot)$$ als Gruppe, falls folgende Kriterien erfuellt sind:
 	1. Abgeschlossenheit
 	$$\forall \space a, b \in \mathbb{G}:a \cdot b \in \mathbb{G}$$
 	2. Assoziativitaet
@@ -10,11 +10,11 @@
 	 4. Inverses Element
 	$$\forall \space a \in \mathbb{G}: \exists \space a^{-1} \in \mathbb{G}: a \cdot a^{-1} = e$$
 #### Abelsche Gruppen
-- Es sei $(G, \cdot)$ eine beliebige Gruppe
+- Es sei $$(G, \cdot)$$ eine beliebige Gruppe
 - Man bezeichnet diese Gruppe als abelsch, falls gilt:
 $$\forall \space a, b \in \mathbb{G}: a \cdot b = b \cdot a$$
 ## Untergruppen
-- Es sei $(\mathbb{G}, \cdot)$ eine beliebige Gruppe
+- Es sei $$(\mathbb{G}, \cdot)$$ eine beliebige Gruppe
 - Man bezeichnet $(\mathbb{U}, \cdot)$ als eine Untergruppe von $(\mathbb{G}, \cdot)$, falls folgende Kriterien erfuellt sind:
 	1. Teilmengenbeziehung
 	$$\mathbb{U} \subseteq \mathbb{G}$$
@@ -25,7 +25,7 @@ $$\forall \space a, b \in \mathbb{G}: a \cdot b = b \cdot a$$
 	 4. Inverses Element
 	$$\forall \space a \in \mathbb{U}: \exists \space a^{-1} \in \mathbb{U}: a \cdot a^{-1} = e$$
 #### Erzeugte Untergruppen
-- Es sei $(\mathbb{G}, \cdot)$ eine Gruppe und $a \in \mathbb{G}$
+- Es sei $$(\mathbb{G}, \cdot)$$ eine Gruppe und $a \in \mathbb{G}$
 - Ausgehend von $a$ wird eine erzeugte Untergruppe definiert durch:
 $$\langle a \rangle = \{a^k \space | \space k \in \mathbb{Z}\} \subseteq \mathbb{G}$$
 - Das neutrale Element ist hierbei $e = a^0$
@@ -36,9 +36,9 @@ $$ord(a) = |\langle a \rangle| = \begin{cases}
 n \\
 \infty
 \end{cases}$$
-- Falls $ord(a)$ endlich ist, so ist $ord(a)$ ist zudem die kleinste natuerliche Zahl, fuer die gilt:
+- Falls $$ord(a)$$ endlich ist, so ist $$ord(a)$$ ist zudem die kleinste natuerliche Zahl, fuer die gilt:
 $$a^{ord(a)} = e$$
-- Somit gilt fuer $s \in \mathbb{N}$:
+- Somit gilt fuer $$s \in \mathbb{N}$$:
 $$a^s = e \Leftrightarrow n | s$$
 ## Ringe
 - Es sei $\mathbb{G}$ eine Gruppe mit den beiden Verknuepfungen $+$ und $\cdot$
