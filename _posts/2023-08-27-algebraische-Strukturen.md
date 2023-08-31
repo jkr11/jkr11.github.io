@@ -1,3 +1,9 @@
+---
+layout: post
+title: Algebraische Strukturen
+latex: true
+---
+
 Lineare Algebra für Informatik: algebraische Strukturen
 
 <!--more-->
@@ -47,8 +53,8 @@ $$a^s = e \Leftrightarrow n | s$$
 ## Ringe
 - Es sei $$\mathbb{G}$$ eine Gruppe mit den beiden Verknuepfungen $$+$$ und $$\cdot$$
 - Man bezeichnet $$(\mathbb{G}, +, \cdot)$$ als Ring, falls folgende Kriterien erfuellt sind:
-	- $$(\mathbb{G}, +)$$ bildet eine abelsche Gruppe
-	- $$\cdot$$ ist assoziativ
+	- &nbsp;$$(\mathbb{G}, +)$$ bildet eine abelsche Gruppe
+	- &nbsp; $$\cdot$$ ist assoziativ
 	 - Es gelten die Distributivgesetze:
 	$$\forall \space a, b, c \in \mathbb{G}: a \cdot (b + c) = (a \cdot b) + (a \cdot c)$$
 #### Kommutativer Ring
@@ -60,7 +66,7 @@ $$\exists \space e \in \mathbb{G}: \forall \space a \in \mathbb{G}: a \cdot e = 
 ## Koerper
 - Es sei $$\mathbb{G}$$ eine Menge mit den Verknuepfungen $$+$$ und $$\cdot$$
 - Man bezeichnet $$(\mathbb{G}, +, \cdot)$$ als Koerper, falls folgende Kriterien erfuellt sind:
-	- $$(\mathbb{G}, +)$$ bildet eine abelsche Gruppe
-	- $$(\mathbb{G} \setminus \{0\}, \cdot)$$ bildet eine abelsche Gruppe
+	- &nbsp; $$(\mathbb{G}, +)$$ bildet eine abelsche Gruppe
+	- &nbsp; $$(\mathbb{G} \setminus \{0\}, \cdot)$$ bildet eine abelsche Gruppe
 	 - Es gelten die Distributivgesetze:
 	$$\forall \space a, b, c \in \mathbb{G}: a \cdot (b + c) = (a \cdot b) + (a \cdot c)$$
