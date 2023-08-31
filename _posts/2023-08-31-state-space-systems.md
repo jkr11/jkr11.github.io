@@ -35,4 +35,4 @@ $$\begin{bmatrix} \dot{y_1} \\ \dot{y_2} \end{bmatrix} = \begin{bmatrix} 0 & 1 \
 
 and 
 
-$$y(t) = \begin{bmatrix}1 & 0 \end{bmatrix} \begin{bmatrix} y_1(t) \\ y_2(t) \end{bmatrix}
+$$y(t) = \begin{bmatrix}1 & 0 \end{bmatrix} \begin{bmatrix} y_1(t) \\ y_2(t) \end{bmatrix} $$
