@@ -1,6 +1,6 @@
 ---
 layout: post
-title: state-space representation
+title: state-space-systems
 latex: true
 ---
 
