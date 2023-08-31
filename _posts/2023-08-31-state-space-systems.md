@@ -1,6 +1,7 @@
 ---
 layout: post
 title: state-space-systems
+latex: true
 ---
 
 A state-space model is defined by equation [1] with $$p$$-D input signal $$u(t)$$ and $$N$$-D state-vector $$x(t)$$ and $$q$$-D output $$y(t)$$. 
